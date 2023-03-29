@@ -1,0 +1,109 @@
+body{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: flex-start;
+    width: 700px;
+    padding: 20px 50px;
+    border: 1px solid black;
+}
+
+.tarjeta{
+    background-color: #a0c6db50;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    height:auto;
+    width: 190px;
+    padding: 40px;
+    border-radius: 150px;
+}
+
+.tarjeta img {
+    border-radius: 50%;
+    height: 200px;
+}
+
+.tarjeta-cuerpo {
+    height: auto;
+}
+
+.sobre-mi {
+    margin-top: -50px;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.contacto h2{
+    margin-left: 30px;
+}
+
+.contacto ul {
+    position: relative;
+}
+
+.contacto ul li {
+    list-style: none;
+    position: relative;
+    margin: 0;
+}
+
+.contacto ul li .icono{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #30588C;
+}
+
+.contacto ul li span{
+    font-weight: 300;
+}
+
+.mas-informacion{
+    padding: 10px;
+}
+
+.hoja {
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #30588C;
+}
+
+h2 {
+    font-size: 25px;
+}
+p {
+    font-size: 17px;
+}
+
+.experiencia-laboral {
+    border-bottom: 1px solid black;
+}
+
+.datos-academicos {
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.habilidades {
+    border-bottom: 1px solid black;
+}
+
+@media (max-width:780px) {
+    .sobre-mi {
+        margin-top: -200px;
+    }
+}
